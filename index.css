@@ -1,0 +1,30 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background: #171717;
+}
+
+.toggel {
+    width: 80px;
+    height: 40px;
+
+    background: #1a1a1a;
+    border-radius: 50px;
+    position: relative;
+    overflow: hidden;
+
+    cursor: pointer;
+}
+
+.toggel input {
+    position: absolute;
+    width: 100%;
+}
